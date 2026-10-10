@@ -13,7 +13,7 @@ import {
 } from 'lucide-react'
 
 import { supabase, unwrap } from '../../lib/supabase'
-import { useJourney } from './useJourney'
+import { useJourney } from '../../features/learning/useJourney'
 
 type Activity = {
   id: string
